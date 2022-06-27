@@ -6,5 +6,6 @@ export default defineNuxtConfig({
         '@/assets/style/fonts.scss',
         '@/assets/style/normalize.scss',
         '@/assets/style/main.scss'
-    ]
+    ],
+    buildModules: ['@pinia/nuxt'],
 })
